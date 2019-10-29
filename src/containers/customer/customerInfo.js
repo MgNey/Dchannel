@@ -9,6 +9,12 @@ class CustomerInfo extends Component{
         return(
             <div>
                 <div className="pro-header">
+                    <div className="p-2 mr-auto">
+                        <div className="input-group md-form form-sm form-2 pl-0">
+                            <input className="form-control my-0 py-1 red-border" type="text" placeholder="Search"
+                                   aria-label="Search"/>
+                        </div>
+                    </div>
                     <div className="p-2 ml-auto">
                         <button className="btn btn-gray">
                             <NavLink to="/dashboard/customers/new">New</NavLink>
@@ -23,7 +29,12 @@ class CustomerInfo extends Component{
                                     <th>Phone No</th>
                                     <th>Email</th>
                                     <th>Shop Name</th>
-                                    <th>Address</th>
+                                    <th>
+                                        <select name="" id="">
+                                            <option value="">Yangon</option>
+                                            <option value="">Mandalay</option>
+                                        </select>
+                                    </th>
                                     <th>
                                         <select name="" id="">
                                             <option value="">Cash</option>

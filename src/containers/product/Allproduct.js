@@ -2,6 +2,9 @@ import React,{ Component } from 'react';
 import {NavLink} from "react-router-dom";
 
 class Allproduct extends Component {
+    nextPath(path) {
+        this.props.history.push(path);
+    }
     render() {
         return (
             <div>
@@ -18,7 +21,6 @@ class Allproduct extends Component {
                         </button>
                     </div>
                 </div>
-
                 <div className="dchannel-content">
                     <div style={{ padding: "10px"}}>
                         <table style={{ width: "100%"}}>
@@ -35,21 +37,21 @@ class Allproduct extends Component {
                                 <th>Price</th>
                                 <th>Stock</th>
                             </tr>
-                            <tr>
+                            <tr onClick={() => this.nextPath('/dashboard/product/product-detail') }>
                                 <td>3242</td>
-                                <td>Royal</td>
+                                <td>Bella</td>
                                 <td>Cream</td>
                                 <td>8000</td>
                                 <td>2</td>
                             </tr>
-                            <tr>
+                            <tr onClick={() => this.nextPath('/dashboard/product/product-detail') }>
                                 <td>3242</td>
                                 <td>Royal</td>
                                 <td>Cream</td>
                                 <td>8000</td>
                                 <td>4</td>
                             </tr>
-                            <tr>
+                            <tr onClick={() => this.nextPath('/dashboard/product/product-detail') }>
                                 <td>3242</td>
                                 <td>Royal</td>
                                 <td>Cream</td>

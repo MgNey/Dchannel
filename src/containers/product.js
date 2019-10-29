@@ -3,6 +3,7 @@ import { NavLink,BrowserRouter as Router,Route } from 'react-router-dom';
 import Active from './../containers/product/active';
 import Allproduct from './../containers/product/Allproduct';
 import ProductNew from './../containers/product/productNew';
+import ItemDetail from './../containers/product/detail';
 class Product extends Component {
     render() {
         return (
@@ -21,6 +22,7 @@ class Product extends Component {
                                 <Route exact path="/dashboard/product" component={Active}/>
                                 <Route path="/dashboard/product/all" component={Allproduct}/>
                                 <Route path="/dashboard/productnew" component={ProductNew}/>
+                                <Route path="/dashboard/product/product-detail" component={ItemDetail}/>
                             </div>
                         </div>
                     </div>

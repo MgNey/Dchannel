@@ -1,7 +1,7 @@
 import React,{ Component } from 'react';
 import {NavLink} from 'react-router-dom';
 
-class Details extends Component {
+class DeliverDetail extends Component {
     render() {
         return(
             <div className="dchannel-content" id="deliver">
@@ -33,8 +33,8 @@ class Details extends Component {
                                         <td>Cash</td>
                                     </tr>
                                     <tr>
-                                        <td>Township</td>
-                                        <td>Yangon</td>
+                                        <td>TownShip</td>
+                                        <td>No(30),Lanmadaw,Yangon</td>
                                     </tr>
                                     <tr>
                                         <td>Amount</td>
@@ -87,7 +87,7 @@ class Details extends Component {
                         </div>
                         <div className="btn-order">
                             <button className="btn yellow">
-                                <NavLink to="/dashboard/order/deliver">Deliver</NavLink>
+                                <NavLink to="/dashboard/order/received">Received</NavLink>
                             </button>
                         </div>
                     </div>
@@ -96,4 +96,4 @@ class Details extends Component {
         );
     }
 }
-export default Details;
+export default DeliverDetail;

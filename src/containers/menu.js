@@ -13,7 +13,7 @@ class Menu extends Component {
                     <NavLink to="/dashboard/order" activeClassName="activeme">Orders</NavLink>
                     <NavLink to="/dashboard/product" activeClassName="activeme">Products</NavLink>
                     <NavLink to="/dashboard/customers" activeClassName="activeme">Customers</NavLink>
-                    <NavLink to="/dashboard/rule" activeClassName="activeme">Rule</NavLink>
+                    <NavLink to="/dashboard/rule" activeClassName="activeme">Rules</NavLink>
                     <NavLink to="/login" activeClassName="activeme">Logout</NavLink>
                 </div>
             </div>

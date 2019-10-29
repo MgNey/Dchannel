@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-class Open extends Component {
+class Received extends Component {
     constructor() {
         super();
         this.state= {
@@ -42,20 +42,28 @@ class Open extends Component {
                                         <option value="">Consignment</option>
                                     </select>
                                 </th>
+                                <th>
+                                    <select name="" id="">
+                                        <option value="">Yangon</option>
+                                        <option value="">Mandalay</option>
+                                    </select>
+                                </th>
                                 <th>Order Ref No</th>
                             </tr>
                             </thead>
                             <tbody>
-                            <tr onClick={() => this.nextPath('/dashboard/order/detail') }>
+                            <tr onClick={() => this.nextPath('/dashboard/order/received-detail') }>
                                 <td>04-09-2019</td>
                                 <td>Mya Mya</td>
                                 <td>cash</td>
+                                <td>Yangon</td>
                                 <td>1</td>
                             </tr>
-                            <tr onClick={() => this.nextPath('/dashboard/order/detail') }>
+                            <tr onClick={() => this.nextPath('/dashboard/order/received-detail') }>
                                 <td>04-09-2019</td>
                                 <td>Mya Mya</td>
                                 <td>Credit</td>
+                                <td>Mandalay</td>
                                 <td>1</td>
                             </tr>
                             </tbody>
@@ -68,4 +76,4 @@ class Open extends Component {
     }
 }
 
-export default Open;
+export default Received;

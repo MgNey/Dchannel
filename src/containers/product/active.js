@@ -2,6 +2,9 @@ import React,{ Component } from 'react';
 import {NavLink} from "react-router-dom";
 
 class Active extends Component {
+    nextPath(path) {
+        this.props.history.push(path);
+    }
     render() {
         return (
             <div>
@@ -10,7 +13,6 @@ class Active extends Component {
                         <div className="input-group md-form form-sm form-2 pl-0">
                             <input className="form-control my-0 py-1 red-border" type="text" placeholder="Search"
                                    aria-label="Search"/>
-
                         </div>
                     </div>
                     <div className="p-2">
@@ -35,21 +37,21 @@ class Active extends Component {
                                 <th>Price</th>
                                 <th>Stock</th>
                             </tr>
-                            <tr>
+                            <tr onClick={() => this.nextPath('/dashboard/product/product-detail') }>
                                 <td>3242</td>
                                 <td>Bella</td>
                                 <td>Cream</td>
                                 <td>8000</td>
                                 <td>2</td>
                             </tr>
-                            <tr>
+                            <tr onClick={() => this.nextPath('/dashboard/product/product-detail') }>
                                 <td>3242</td>
                                 <td>Royal</td>
                                 <td>Cream</td>
                                 <td>8000</td>
                                 <td>4</td>
                             </tr>
-                            <tr>
+                            <tr onClick={() => this.nextPath('/dashboard/product/product-detail') }>
                                 <td>3242</td>
                                 <td>Royal</td>
                                 <td>Cream</td>
@@ -59,7 +61,6 @@ class Active extends Component {
                         </table>
                     </div>
                 </div>
-
             </div>
         );
     }

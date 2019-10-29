@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import {NavLink} from 'react-router-dom';
 
-class New extends Component{
+class RuleEdit extends Component{
     render() {
         return(
             <div className="dchannel-content">
@@ -13,7 +13,7 @@ class New extends Component{
                             </div>
                             <div className="rul-prd">
                                 <div className="">
-                                    <input type="text" style={{ width: "100%"}}/>
+                                    <input type="text" style={{ width: "100%"}} value="Make Up"/>
                                 </div>
                             </div>
                         </div>
@@ -30,7 +30,7 @@ class New extends Component{
                                 </select>
                             </div>
                             <div className="rul-min-num">
-                                <input type="number"/>
+                                <input type="number" value="10"/>
                             </div>
                         </div>
                     </div>
@@ -40,7 +40,7 @@ class New extends Component{
                                 <lable>Discount</lable>
                             </div>
                             <div className="rul-dis">
-                                <input type="number"/>
+                                <input type="number" value="20"/>
                                 <span>%</span>
                             </div>
                         </div>
@@ -52,10 +52,10 @@ class New extends Component{
                             </div>
                             <div className="rul-date">
                                 <label>Start</label>
-                                <input type="text"/>
+                                <input type="text" value="10-10-2019"/>
                                 <br/>
                                 <label>End</label>
-                                <input type="text"/>
+                                <input type="text" value="22-10-2019"/>
                             </div>
                             <br/>
                         </div>
@@ -63,7 +63,7 @@ class New extends Component{
                     <div className="row di-mg">
                         <div className="col-md-6 text-right">
                             <button className="btn btn-gray">
-                                <NavLink exact to="/dashboard/rule">Save</NavLink></button>
+                                <NavLink exact to="/dashboard/rule">Update</NavLink></button>
                         </div>
                     </div>
                 </div>
@@ -71,4 +71,4 @@ class New extends Component{
         );
     }
 }
-export default New;
+export default RuleEdit;

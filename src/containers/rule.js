@@ -2,6 +2,7 @@ import React , { Component } from 'react';
 import { NavLink,BrowserRouter as Router,Route } from 'react-router-dom';
 import List from './../containers/discount/list';
 import New from './../containers/discount/new';
+import RuleEdit from './../containers/discount/edit';
 
 class Rule extends Component {
     render() {
@@ -18,7 +19,8 @@ class Rule extends Component {
                             </div>
                             <div className="dchannel-container">
                                     <Route exact path="/dashboard/rule" component={List}/>
-                                    <Route path="/dashboard/rule/new" component={New}/>
+                                <Route path="/dashboard/rule/new" component={New}/>
+                                <Route path="/dashboard/rule/edit" component={RuleEdit}/>
                             </div>
 
                         </div>

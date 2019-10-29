@@ -1,32 +1,20 @@
 import React, { Component } from 'react'
 import {NavLink} from "react-router-dom";
 
-class CustomerInforDetail extends Component{
+class ItemDetail extends Component{
     render() {
         return(
             <div>
-                <div className="pro-header">
-                    <div className="p-2 mr-auto">
-                        <button className="btn btn-gray">
-                            <NavLink to="/dashboard/customers">Back</NavLink>
-                        </button>
-                    </div>
-                    <div className="p-2 ml-auto">
-                        <button className="btn btn-gray">
-                            <NavLink to="/dashboard/customers">Update</NavLink>
-                        </button>
-                    </div>
-                </div>
                 <div className="dchannel-content" id="deliver">
                     <div style={{ padding: "10px"}}>
                         <div className="row di-mg">
                             <div className="col-md-6">
                                 <div className="row">
                                     <div className="col-md-3">
-                                        <label>Phone No</label>
+                                        <label>Stock Code</label>
                                     </div>
                                     <div className="col-md-9">
-                                        <input type="text" name="" value="09123455678"/>
+                                        <input type="text" value="3425"/>
                                     </div>
                                 </div>
                             </div>
@@ -35,10 +23,10 @@ class CustomerInforDetail extends Component{
                             <div className="col-md-6">
                                 <div className="row">
                                     <div className="col-md-3">
-                                        <label>Email</label>
+                                        <label>Brand</label>
                                     </div>
                                     <div className="col-md-9">
-                                        <input type="text" name="" value="admin@gmail.com"/>
+                                        <input type="text" value="Bella"/>
                                     </div>
                                 </div>
                             </div>
@@ -47,10 +35,10 @@ class CustomerInforDetail extends Component{
                             <div className="col-md-6">
                                 <div className="row">
                                     <div className="col-md-3">
-                                        <label>Shop Name</label>
+                                        <label>Type</label>
                                     </div>
                                     <div className="col-md-9">
-                                        <input type="text" name="" value="Dchannel"/>
+                                        <input type="text" value="Cream"/>
                                     </div>
                                 </div>
                             </div>
@@ -59,11 +47,10 @@ class CustomerInforDetail extends Component{
                             <div className="col-md-6">
                                 <div className="row">
                                     <div className="col-md-3">
-                                        <label>Address</label>
+                                        <label>Price</label>
                                     </div>
                                     <div className="col-md-9">
-                                        <textarea name="" id=""  cols={22
-                                        }>No(30),Lanmadaw,Yangon</textarea>
+                                        <input type="text" value="8000"/>
                                     </div>
                                 </div>
                             </div>
@@ -72,17 +59,19 @@ class CustomerInforDetail extends Component{
                             <div className="col-md-6">
                                 <div className="row">
                                     <div className="col-md-3">
-                                        <label>Payment Term</label>
+                                        <label>Stock</label>
                                     </div>
                                     <div className="col-md-9">
-                                        <select name="" id="" style={{ width: "180px"}}>
-                                            <option value="">Cash</option>
-                                            <option value="">Credit</option>
-                                            <option value="">Consignment</option>
-                                        </select>
+                                        <input type="text" value="2"/>
                                     </div>
                                 </div>
                             </div>
+                        </div>
+                    </div>
+                    <div className="row di-mg">
+                        <div className="col-md-6 text-right">
+                            <button className="btn btn-gray">
+                                <NavLink exact to="/dashboard/product">Update</NavLink></button>
                         </div>
                     </div>
                 </div>
@@ -91,4 +80,4 @@ class CustomerInforDetail extends Component{
         );
     }
 }
-export default CustomerInforDetail;
+export default ItemDetail;

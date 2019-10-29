@@ -4,6 +4,10 @@ import Open from './../containers/order/open';
 import Deliver from './../containers/order/deliver';
 import Paid from './../containers/order/paid';
 import Details from './../containers/order/detail';
+import Received from './../containers/order/received';
+import DeliverDetail from './order/deliverdetail';
+import ReceiveDetail from './order/receivedetail';
+import PaidDetail from './order/paid-detail';
 
 class Order extends Component {
     render() {
@@ -22,19 +26,14 @@ class Order extends Component {
                                 <NavLink to="/dashboard/order/paid" className="nav-tab" activeClassName="order-active">Paid</NavLink>
                             </div>
                             <div className="dchannel-container">
-                                <div className="pro-header">
-                                    <div className="p-2 mr-auto">
-                                        <div className="input-group md-form form-sm form-2 pl-0">
-                                            <input className="form-control my-0 py-1 red-border" type="text" placeholder="Search"
-                                                   aria-label="Search"/>
-                                        </div>
-                                    </div>
-                                </div>
                                 <Route exact path="/dashboard/order" component={Open}/>
                                 <Route path="/dashboard/order/deliver" component={Deliver}/>
-                                <Route exact path="/dashboard/order/received" component={Open}/>
+                                <Route exact path="/dashboard/order/received" component={Received}/>
                                 <Route path="/dashboard/order/paid" component={Paid}/>
                                 <Route path="/dashboard/order/detail" component={Details}/>
+                                <Route path="/dashboard/order/devilverdetail" component={DeliverDetail}/>
+                                <Route path="/dashboard/order/received-detail" component={ReceiveDetail}/>
+                                <Route path="/dashboard/order/paid-detail" component={PaidDetail}/>
                             </div>
                         </div>
                     </div>
