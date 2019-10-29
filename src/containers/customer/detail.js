@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import {NavLink} from "react-router-dom";
 
-class CustomerForm extends Component{
+class CustomerInforDetail extends Component{
     render() {
         return(
             <div>
@@ -26,7 +26,7 @@ class CustomerForm extends Component{
                                         <label>Phone No</label>
                                     </div>
                                     <div className="col-md-9">
-                                        <input type="text"/>
+                                        <input type="text" name="" value="09123455678"/>
                                     </div>
                                 </div>
                             </div>
@@ -38,7 +38,7 @@ class CustomerForm extends Component{
                                         <label>Email</label>
                                     </div>
                                     <div className="col-md-9">
-                                        <input type="text"/>
+                                        <input type="text" name="" value="admin@gmail.com"/>
                                     </div>
                                 </div>
                             </div>
@@ -50,7 +50,7 @@ class CustomerForm extends Component{
                                         <label>Shop Name</label>
                                     </div>
                                     <div className="col-md-9">
-                                        <input type="text"/>
+                                        <input type="text" name="" value="Dchannel"/>
                                     </div>
                                 </div>
                             </div>
@@ -63,7 +63,7 @@ class CustomerForm extends Component{
                                     </div>
                                     <div className="col-md-9">
                                         <textarea name="" id=""  cols={22
-                                        }></textarea>
+                                        }>Yangon</textarea>
                                     </div>
                                 </div>
                             </div>
@@ -91,4 +91,4 @@ class CustomerForm extends Component{
         );
     }
 }
-export default CustomerForm;
+export default CustomerInforDetail;

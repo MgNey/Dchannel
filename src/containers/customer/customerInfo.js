@@ -2,13 +2,16 @@ import React, { Component } from 'react';
 import {NavLink} from "react-router-dom";
 
 class CustomerInfo extends Component{
+    nextPath(path) {
+        this.props.history.push(path);
+    }
     render() {
         return(
             <div>
                 <div className="pro-header">
                     <div className="p-2 ml-auto">
                         <button className="btn btn-gray">
-                            <NavLink to="/dashboard/customers/new" activeClassName="tab-active">New</NavLink>
+                            <NavLink to="/dashboard/customers/new">New</NavLink>
                         </button>
                     </div>
                 </div>
@@ -31,7 +34,7 @@ class CustomerInfo extends Component{
                                 </tr>
                             </thead>
                             <tbody>
-                                <tr>
+                            <tr onClick={() => this.nextPath('/dashboard/customers/detail') }>
                                     <td>0912345678</td>
                                     <td>admin@gmail.com</td>
                                     <td>D Channel Shop</td>

@@ -221,3 +221,7 @@ tr th,tr td {
 .customer-detail {
   width: 700px;
 }
+.order-list .btn-order {
+  text-align: right !important;
+  padding: 20px 10px !important;
+}

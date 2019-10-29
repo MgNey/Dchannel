@@ -80,6 +80,9 @@ class Details extends Component {
                                 </table>
                             </div>
                         </div>
+                        <div className="btn-order">
+                            <button className="btn yellow">Deliver</button>
+                        </div>
                     </div>
                 </div>
             </div>
