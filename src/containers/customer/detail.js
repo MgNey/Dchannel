@@ -63,7 +63,7 @@ class CustomerInforDetail extends Component{
                                     </div>
                                     <div className="col-md-9">
                                         <textarea name="" id=""  cols={22
-                                        }>No(30),Lanmadaw,Yangon</textarea>
+                                        }>No(30),Pazundaung,Yangon</textarea>
                                     </div>
                                 </div>
                             </div>

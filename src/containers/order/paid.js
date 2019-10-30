@@ -31,8 +31,8 @@ class Paid extends Component{
                                 </th>
                                 <th>
                                     <select name="" id="">
-                                        <option value="">Yangon</option>
-                                        <option value="">Mandalay</option>
+                                        <option value="">Pazundaung</option>
+                                        <option value="">Kyaukdata</option>
                                     </select>
                                 </th>
                                 <th>Order Ref No</th>
@@ -43,7 +43,7 @@ class Paid extends Component{
                                 <td>04-09-2019</td>
                                 <td>Mya Mya</td>
                                 <td>cash</td>
-                                <td>Yangon</td>
+                                <td>Kyaukdata</td>
                                 <td>1</td>
                             </tr>
                             </tbody>

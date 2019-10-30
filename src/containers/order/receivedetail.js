@@ -33,8 +33,8 @@ class ReceivedDetail extends Component {
                                         <td>Cash</td>
                                     </tr>
                                     <tr>
-                                        <td>Township</td>
-                                        <td>No(30),Lanmadaw,Yangon</td>
+                                        <td>Address</td>
+                                        <td>No(30),Kyaukdata,Yangon</td>
                                     </tr>
                                     <tr>
                                         <td>Amount</td>

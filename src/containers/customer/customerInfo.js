@@ -31,8 +31,8 @@ class CustomerInfo extends Component{
                                     <th>Shop Name</th>
                                     <th>
                                         <select name="" id="">
-                                            <option value="">Yangon</option>
-                                            <option value="">Mandalay</option>
+                                            <option value="">Pazundaung</option>
+                                            <option value="">Kyaukdata</option>
                                         </select>
                                     </th>
                                     <th>
@@ -49,7 +49,7 @@ class CustomerInfo extends Component{
                                     <td>0912345678</td>
                                     <td>admin@gmail.com</td>
                                     <td>D Channel Shop</td>
-                                    <td>Yangon</td>
+                                    <td>Pazundaung</td>
                                     <td>Cash</td>
                                 </tr>
                             </tbody>

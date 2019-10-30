@@ -33,8 +33,8 @@ class DeliverDetail extends Component {
                                         <td>Cash</td>
                                     </tr>
                                     <tr>
-                                        <td>TownShip</td>
-                                        <td>No(30),Lanmadaw,Yangon</td>
+                                        <td>Address</td>
+                                        <td>No(20),1st floor,Pazundaung,Yangon</td>
                                     </tr>
                                     <tr>
                                         <td>Amount</td>

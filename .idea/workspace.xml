@@ -2,27 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c50cf19b-989f-4039-b178-6279a10aefc5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/containers/discount/edit.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/containers/order/deliverdetail.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/containers/order/paid-detail.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/containers/order/received.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/containers/order/receivedetail.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/containers/product/detail.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/containers/customer/customerInfo.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/customer/customerInfo.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/containers/customer/detail.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/customer/detail.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/discount/list.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/discount/list.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/discount/new.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/discount/new.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/menu.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/menu.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/order.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/order.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/containers/order/deliver.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/order/deliver.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/order/deliverdetail.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/order/deliverdetail.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/containers/order/detail.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/order/detail.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/order/open.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/order/open.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/order/paid-detail.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/order/paid-detail.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/containers/order/paid.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/order/paid.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/product.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/product.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/product/Allproduct.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/product/Allproduct.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/order/received.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/order/received.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/order/receivedetail.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/order/receivedetail.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/containers/product/active.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/product/active.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/rule.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/rule.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/product/detail.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/product/detail.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -60,7 +51,7 @@
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="yarn" />
     <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
-    <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2019.2.3\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
+    <property name="ts.external.directory.path" value="E:\Dchannel\dchannel\node_modules\typescript\lib" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -159,7 +150,8 @@
       <workItem from="1572058783523" duration="2556000" />
       <workItem from="1572075206629" duration="21000" />
       <workItem from="1572339034887" duration="336000" />
-      <workItem from="1572340315957" duration="11826000" />
+      <workItem from="1572340315957" duration="12295000" />
+      <workItem from="1572406130484" duration="3910000" />
     </task>
     <servers />
   </component>

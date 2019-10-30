@@ -31,8 +31,9 @@ class Deliver extends Component{
                                  </th>
                                  <th>
                                      <select name="" id="">
-                                         <option value="">Yangon</option>
-                                         <option value="">Mandalay</option>
+                                         <option value="">Lathar</option>
+                                         <option value="">Pazundaung</option>
+                                         <option value="">Kyaukdata</option>
                                      </select>
                                  </th>
                                  <th>Order Ref No</th>
@@ -44,7 +45,7 @@ class Deliver extends Component{
                                  <td>04-09-2019</td>
                                  <td>Mya Mya</td>
                                  <td>cash</td>
-                                 <td>Yangon</td>
+                                 <td>Pazundaung</td>
                                  <td>1</td>
                                  <td><a href="">Delete</a></td>
                              </tr>

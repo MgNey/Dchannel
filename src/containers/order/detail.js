@@ -33,8 +33,8 @@ class Details extends Component {
                                         <td>Cash</td>
                                     </tr>
                                     <tr>
-                                        <td>Township</td>
-                                        <td>Yangon</td>
+                                        <td>Address</td>
+                                        <td>No(30),Lanmadaw ,Yangon.</td>
                                     </tr>
                                     <tr>
                                         <td>Amount</td>

@@ -70,8 +70,19 @@ class ItemDetail extends Component{
                     </div>
                     <div className="row di-mg">
                         <div className="col-md-6 text-right">
-                            <button className="btn btn-gray">
-                                <NavLink exact to="/dashboard/product">Update</NavLink></button>
+                            <div className="act-product float-left">
+                                <div className="float-left pr-5">
+                                    <input type="radio" name="product" value="active"/>
+                                    <label className="p-2 pb-2">active</label>
+                                </div>
+                                <div className="float-left">
+                                    <input type="radio" name="product" value="Inactive"/>
+                                    <label className="p-2">Inactive</label>
+                                </div>
+                            </div>
+                            <button className="btn btn-gray float-right">
+                                <NavLink exact to="/dashboard/product">Update</NavLink>
+                            </button>
                         </div>
                     </div>
                 </div>

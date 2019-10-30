@@ -39,20 +39,6 @@ class Active extends Component {
                             </tr>
                             <tr onClick={() => this.nextPath('/dashboard/product/product-detail') }>
                                 <td>3242</td>
-                                <td>Bella</td>
-                                <td>Cream</td>
-                                <td>8000</td>
-                                <td>2</td>
-                            </tr>
-                            <tr onClick={() => this.nextPath('/dashboard/product/product-detail') }>
-                                <td>3242</td>
-                                <td>Royal</td>
-                                <td>Cream</td>
-                                <td>8000</td>
-                                <td>4</td>
-                            </tr>
-                            <tr onClick={() => this.nextPath('/dashboard/product/product-detail') }>
-                                <td>3242</td>
                                 <td>Royal</td>
                                 <td>Cream</td>
                                 <td>8000</td>
